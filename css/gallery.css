@@ -1,0 +1,104 @@
+@font-face {
+  font-family: HomemadeApple;
+  src: url(../fonts/HomemadeApple-Regular.woff2);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Gasoek;
+  src: url(../fonts/GasoekOne-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: HomemadeApple;
+}
+
+p {
+  color: gold;
+  margin-left: 2%;
+  font-family: RobotoMono;
+}
+
+.backwards-arrow {
+  text-align: right;
+}
+
+
+#gallery {
+  overflow-x: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(135, 0, 20);
+}
+
+.backbutton {
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 30%;
+  color: gold;
+  outline: 2px dashed gold;
+  padding: 2px;
+  font-family: RobotoMono;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.backtobed {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backbutton:hover {
+  background-color: cornflowerblue;
+  color: navy;
+  outline: 2px dashed navy;
+}
+
+
+.paintings {
+  color: gold;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  gap: 30%;
+}
+
+.individual-paintings:hover {
+  transform: rotateX(150deg);
+  transition: all 0.3s ease-in-out;
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+input[type=button]{
+  font-family: RobotoMono;
+  font-size: 15px;
+  background-color: cornflowerblue;
+  border-color: gold;
+  color: gold;
+  border-radius: 30px;
+  position: relative;
+  left: 220%;
+  margin-bottom: 50px;
+}
+
+#YT-video{
+  position: relative;
+  text-align: center;
+  top:280%;
+  left:200%;
+  border-radius: 30px;
+  border: gold solid;
+  background-color: cornflowerblue;
+  padding:3px;
+  width:242px;
+}

@@ -1,0 +1,126 @@
+@font-face {
+  font-family: HomemadeApple;
+  src: url(../fonts/HomemadeApple-Regular.woff2);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Gasoek;
+  src: url(../fonts/GasoekOne-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: HomemadeApple;
+}
+
+p {
+  font-family: RobotoMono;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.backbutton {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 30%;
+  color: rgb(24, 88, 148);
+  outline: 2px dashed rgb(24, 88, 148);
+  padding: 2px;
+  font-family: RobotoMono;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.backtobed {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backbutton:hover {
+  background-color: rgb(24, 88, 148);
+  color: white;
+}
+
+#greatwave {
+  background: url('../images/GreatWave.jpg') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: RobotoMono;
+  text-decoration: none;
+}
+
+/*BOXES - PHOTOS*/
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 600px;
+  justify-content: center;
+}
+
+/* individually styling my boxes */
+.box {
+  position: relative;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#box1 {
+  top: 25vh;
+  left: 45vh;
+}
+
+#box2 {
+  top: 10vh;
+  left: 10vh;
+}
+
+#box3 {
+  top: 40vh;
+  left: 0vh;
+}
+
+#box4 {
+  top: 70vh;
+  left: 25vh;
+}
+
+#box5 {
+  top: 55vh;
+  left: 30vh;
+}
+
+#box6 {
+  top: 60vh;
+  left: 40vh;
+}
+
+#box7 {
+  top: 40vh;
+  left: 50vh;
+}
+
+
+.box:hover {
+  background-color: #870014;
+  transform: scale(1.1);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}

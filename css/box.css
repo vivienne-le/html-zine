@@ -1,0 +1,122 @@
+@font-face {
+    font-family: HomemadeApple;
+    src: url(../fonts/HomemadeApple-Regular.woff2);
+  }
+  
+  @font-face {
+    font-family: RobotoMono;
+    src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+  }
+  
+  @font-face {
+    font-family: Gasoek;
+    src: url(../fonts/GasoekOne-Regular.woff2);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: HomemadeApple;
+  }
+  
+  p {
+    font-family: RobotoMono;
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+
+.backbutton3 {
+    font-family: RobotoMono;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+    color: rgb(24, 88, 148);
+    outline: 2px dashed rgb(24, 88, 148);
+    padding: 2px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .backtowave {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .backbutton3:hover {
+    background-color: rgb(24, 88, 148);
+    color:aqua;
+    outline: 2px dotted aqua;
+    
+  }
+
+#box1 {
+    background: url('../images/photo1.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box2 {
+    background: url('../images/photo2.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box3 {
+    background: url('../images/photo3.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box4 {
+    background: url('../images/photo4.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box5 {
+    background: url('../images/photo5.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box6 {
+    background: url('../images/photo6.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}
+
+#box7 {
+    background: url('../images/photo7.png') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: RobotoMono;
+    text-decoration: none;
+}

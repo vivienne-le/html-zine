@@ -1,0 +1,85 @@
+@font-face {
+    font-family: HomemadeApple;
+    src: url(../fonts/HomemadeApple-Regular.woff2);
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+}
+
+@font-face {
+    font-family: Gasoek;
+    src: url(../fonts/GasoekOne-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+    font-family: HomemadeApple;
+    position: relative;
+    left: 50%;
+    width: 100px;
+    text-shadow: 2px 2px 5px hotpink;
+    color: honeydew;
+}
+
+p {
+    font-family: RobotoMono;
+}
+
+
+#journalentry{
+    position: relative;
+    background: url('../images/journalpage.png') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+input[type=text]{
+    position: relative;
+    left: 50%;
+    width: 30%;
+    padding: 40px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: honeydew;
+    border-style:dotted;
+    border-color: hotpink;
+  }
+
+input[type=button] {
+    position: relative;
+    left: 50%;
+    background-color:honeydew;
+    border-color: hotpink;
+    color: hotpink;
+}
+
+.backbutton2 {
+    position: relative;
+    left:10%;
+    top: 60%;
+    width: 35%;
+    color:rgb(0, 0, 0);
+    outline: 2px dashed rgb(0, 0, 0);
+    padding: 2px;
+    font-family: RobotoMono;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .backtojournal {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .backbutton2:hover {
+    background-color: hotpink;
+    outline: 2px dashed honeydew;
+    color: honeydew;
+  }

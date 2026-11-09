@@ -1,0 +1,5 @@
+*.zip
+.DS_Store
+deploy-to-vercel.command
+_originals
+_to_delete

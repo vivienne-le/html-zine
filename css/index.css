@@ -1,0 +1,175 @@
+@font-face {
+  font-family: HomemadeApple;
+  src: url(../fonts/HomemadeApple-Regular.woff2);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Gasoek;
+  src: url(../fonts/GasoekOne-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: HomemadeApple;
+}
+
+p {
+  font-family: RobotoMono;
+}
+
+
+/*BEDROOM*/
+#bedroom {
+  background: url('../images/bedroom-view.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.bedroom-header {
+  font-family: Gasoek;
+  font-size: 60px;
+  text-align: center;
+  background-image: url('../images/IMG_8233.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bedroom-header:hover {
+  color: rgb(255, 45, 167);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.dreamspace {
+  text-decoration: none;
+}
+
+.left-window {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+.left-window:hover {
+  transform: translate(2px, 2px);
+  filter: saturate(200%);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.gallery {
+  position: absolute;
+  top: 45%;
+  right: 20%;
+}
+
+.gallery:hover {
+  transform: translate(2px, 2px);
+  filter: saturate(200%);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.journal-book {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+}
+
+.journal-book:hover {
+  transform: translate(2px, 2px);
+  filter: saturate(200%);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+/*hover and text will appear*/
+.hover-area {
+  position: relative;
+  left: 35vh;
+  top: 10vh;
+  font-size: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  background-color: rgb(255, 252, 240);
+  border: 1px solid #ccc;
+  font-family: RobotoMono, sans-serif;
+  cursor: url('../images/apple-cursor.cur'),auto;
+  text-align: center;
+}
+
+.hidden-text {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.hover-area:hover .hidden-text {
+  display: block;
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.second-hover-area {
+  position: absolute;
+  right: 40vh;
+  top: 30vh;
+  font-size: 10px;
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  background-color: rgb(255, 252, 240);
+  border: 1px solid #ccc;
+  font-family: RobotoMono, sans-serif;
+  cursor: url('../images/apple-cursor.cur'),auto;
+  text-align: center;
+}
+
+.second-hidden-text {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.second-hover-area:hover .second-hidden-text {
+  display: block;
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.sources-page {
+  position: relative;
+  top: 300px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: navy;
+}
+
+.sources-page:hover {
+  color: aqua;
+  text-decoration-line: underline;
+  cursor: url('../images/apple-cursor.cur'),auto;
+}

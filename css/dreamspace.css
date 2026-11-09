@@ -1,0 +1,144 @@
+@font-face {
+  font-family: HomemadeApple;
+  src: url(../fonts/HomemadeApple-Regular.woff2);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Gasoek;
+  src: url(../fonts/GasoekOne-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: HomemadeApple;
+}
+
+p {
+  font-family: RobotoMono;
+}
+
+#dreamspace {
+  background-color: rgb(116, 159, 132);
+  color: azure;
+}
+
+.backbutton {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 15%;
+  color: azure;
+  outline: 2px dashed azure;
+  padding: 2px;
+  font-family: RobotoMono;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.backtobed {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backbutton:hover {
+  background-color: rgba(59, 59, 255, 0.529);
+  color: white;
+  outline: 2px dashed rgba(59, 59, 255, 0.529);
+}
+
+.dreamspace-header {
+  text-align: right;
+}
+
+.dreamspace-caption {
+  text-align: right;
+  margin-left: 50%;
+}
+
+.webzine-content {
+  text-align: left;
+  margin-right: 50%;
+}
+
+.dreamspace-subheader {
+  text-align: center;
+}
+
+.vivi-sapa {
+  border-radius: 50%;
+}
+
+.Wanderer {
+  border-radius: 50%;
+}
+
+.comparison {
+  font-family: RobotoMono;
+  display: flex;
+  margin: 50px;
+  gap: 5%;
+  justify-content: center;
+  height: 350px;
+}
+
+.comparison:hover {
+  filter: brightness(150%);
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.dreamspace-text {
+  columns: 3;
+  margin: 50px;
+}
+
+.dreamspace-text:hover {
+  transform: translate(10px, 10px);
+}
+
+.reflection {
+  text-align: center;
+  font-family: HomemadeApple;
+  font-size: xx-large;
+  position: relative;
+  display: inline-block;
+  width: 99%;
+  background-color: rgba(59, 59, 255, 0.529);
+  /* Highlight area to hover */
+  border: 5px dotted azure;
+  cursor: pointer;
+}
+
+.reflection-text {
+  font-family: RobotoMono;
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hotpink;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10;
+  cursor: url('../images/apple-cursor.cur'),auto;
+}
+
+.reflection:hover .reflection-text {
+  display: block;
+}
+
+.gallery:hover {
+  border: 3px dashed #bd1313;
+  border-radius: auto;
+  width: 300px;
+  height: auto;
+}
