@@ -5,3 +5,4 @@ _originals/
 _to_delete/
 *.command
 *.log
+.env*
